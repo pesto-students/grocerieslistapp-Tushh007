@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Groceries List App</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">Grocery Lists App</h1>
+            <h2 class="header__subtitle">Make lists and never forget!</h2>
+        </div>
+    </div>
+
+    <div class="actions">
+        <div class="actions__container actions__container--spaced">
+            <a href="/home.html">back</a>
+            <span id="last-edited"></span>
+        </div>
+    </div>
+
+    <div class="container">
+        <input id="list-title" placeholder="Grocery List title" class="title-input">
+        <textarea id="list-body" placeholder="Enter grocery list" class="body-input"></textarea>
+        <button id="remove-list" class="button button--secondary">Remove Grocery list</button>
+    </div>
+    <script src="./scripts/edit-bundle.js"></script>\
+</body>
+
+</html>
